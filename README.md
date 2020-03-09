@@ -46,6 +46,6 @@ Folder for storing data collected from calling the OpenWeather API in csv format
 Data collected by WeatherPy code from OpenWeather API stored in csv format. Allows use of code for data analysis if program is closed and reopened by reading in csv data rather than recalling API.
 ## Built With
 * Python
-* [OpenWeatherMap](https://openweathermap.org/current)
+* [OpenWeather API](https://openweathermap.org/current)
 ## Authors
 * Ryan Klueg
