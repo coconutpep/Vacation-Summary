@@ -36,6 +36,10 @@ Charts created by the code in WeatherPy for quick reference rather than having t
   Scatterplot showing the the wind speed in miles per hour at a city's given latitude, for cities whose latitude is zero (the equator) or less.
   * [Cloudiness by Latitude](WeatherPy/Charts/southern_cloud_by_lat.png)
   Scatterplot showing the the percent cloudiness at a city's given latitude, for cities whose latitude is zero (the equator) or less.
+### [/Output Data](WeatherPy/output_data)
+Folder for storing data collected from calling the OpenWeather API in csv format for calling on in later analysis.
+* [Cities.csv](WeatherPy/output_data/cities.csv)
+Data collected by WeatherPy code from OpenWeather API stored in csv format. Allows use of code for data analysis if program is closed and reopened by reading in csv data rather than recalling API.
 ## Built With
 * Python
 * [OpenWeatherMap](https://openweathermap.org/current)
