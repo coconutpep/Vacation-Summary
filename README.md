@@ -7,6 +7,8 @@ Code that ...
 Houses code that performs an analysis and visualizes changes in weather based on an area's latitudinal distance from the equator.
 ### [WeatherPy](WeatherPy/WeatherPy.ipynb)
 Code that performs an analysis and visualizes changes in weather based on an area's latitudinal distance from the equator.
+*Note*
+Code calls to OpenWeather API and returns data on a list of cities the code generates at the beginning of the program. This data is then cleaned an saved to a csv file later on which is then read back into the program for data analysis and visualization. This is so if the program is closed before data analysis you don't have to regenerate a new city list and recall the API, you can start from the csv file to analyize data. This means that sample charts provided will also most likely not match exactly the data you will get from running the code as you will be working with a new data set. 
 ### [/Charts](WeatherPy/Charts)
 Charts created by the code in WeatherPy for quick reference rather than having to dig through code. Regression lines are shown for charts depicting weather changes by latitude by hemisphere.
 * Charts for the Entire Globe
