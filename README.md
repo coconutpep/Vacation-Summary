@@ -1,6 +1,9 @@
 # python-api-challenge
 ## Note About Use:
-These codes function by looking for config.py file in the same folder as themselves. This file will house the api keys for each respective API (OpenWeather for WeatherPy and GooglePlaces for VacationPy). The code is written for WeatherPy to look for api_key = '{Your Key Here}', and VacationPy looks for g_key = '{Your key here}'. Without these files and formatting the code will not run. They have **NOT** been provided and you will have to create and fill them yourself.
+These codes function by looking for config.py file in the same folder as themselves. This file will house the api keys for each respective API (OpenWeather for WeatherPy and GooglePlaces for VacationPy).</br> 
+**WeatherPy** looks for api_key = '{Your Key Here}'.</br>
+**VacationPy** looks for g_key = '{Your key here}'.</br>
+Without these files and formatting the code will not run. They have **NOT** been provided and you will have to create and fill them yourself.
 ## [/WeatherPy](WeatherPy)
 Houses code that performs an analysis and visualizes changes in weather based on an area's latitudinal distance from the equator, as well as the data ouput in csv format and the charts created from the data.
 ### [WeatherPy](WeatherPy/WeatherPy.ipynb)
